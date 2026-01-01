@@ -1,9 +1,3 @@
-Harika. Senin için "kopyala-yapıştır" yapabileceğin, proje gereksinimlerinin hepsini (sözel anlatım, akış şeması, pseudocode, kodun kendisi ve test sonuçları) tek bir dosyada toplayan **çok detaylı ve profesyonel** bir `README.md` hazırladım.
-
-Bunu direkt Github'a yükleyebilirsin.
-
----
-
 # Collatz-RSU: Collatz Sanısı Tabanlı Kriptografik Rastgele Sayı Üreteci (CSPRNG)
 
 ![Python](https://img.shields.io/badge/Language-Python%203.x-blue)
@@ -54,6 +48,7 @@ Elde edilen temiz bit, bir önceki üretilen bit ile XOR işlemine sokulur (Ciph
 
 Algoritmanın çalışma prensibini gösteren görsel şema aşağıdadır:
 
+```mermaid
 graph TD
     A[Başlat: Seed N] --> B{N == 1?}
     B -- Evet --> C[Yeniden Tohumla: N = N + Salt]
@@ -70,6 +65,8 @@ graph TD
     K --> L[Son_Çıktı'yı Güncelle]
     L --> M[Bit'i Keystream'e Ekle]
     M --> B
+
+```
 
 ---
 
