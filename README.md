@@ -367,7 +367,3 @@ python collatz_test.py
 **Hazırlayan:** Alperen Yasemin
 
 **Tarih:** Ocak 2026
-
-```
-
-```
